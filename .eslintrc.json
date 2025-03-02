@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": [
+          "intensity",
+          "position",
+          "attach",
+          "distort",
+          "speed",
+          "args",
+          "scale"
+        ]
+      }
+    ]
+  }
+}
